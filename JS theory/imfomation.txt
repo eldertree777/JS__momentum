@@ -1,0 +1,10 @@
+javascript -> frontend의 유일한 프로그래밍언어
+ECMAScript : js specification
+
+<body>
+  <script src="index.js">
+
+Variable
+생성 -> 초기화 -> 사용
+
+변수선언 let const var
