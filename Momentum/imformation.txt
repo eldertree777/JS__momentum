@@ -1,0 +1,5 @@
+new Date()
+현재 시각 객체 생성
+
+setInterval(function, milsec)
+설정 시간마다 함수 사용

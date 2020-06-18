@@ -8,3 +8,51 @@ Variable
 생성 -> 초기화 -> 사용
 
 변수선언 let const var
+변수선언명 camel case 
+ex) daysOfWeek
+
+array 선언
+ex) onst daysOfWeek = ["mon", "tue", true];
+object 선언
+ex) const jewon = {
+    name : "jewon",
+    age : 24,
+    gender : "man",
+    marry : false,
+    favMovies: ["A","B","C"],
+    favFood : [
+        {name:"AA", hot: true},
+        {name:"BB", hot: false}
+    ]
+    plus: function(a,b){
+        return a+b;
+    }
+};
+
+function
+ex) function sayHello(name, age){
+    console.log("hello", name,age);
+}
+
+`` vs "" vs ''
+
+DOM : html 객체 반환 -> document
+ex)
+  title.innerHTML = "HI! from JS!";
+  title.style.color= "red";
+  document.title = "hi DOM";
+
+이벤트 헨들러
+  window.addEventListener("resize", handleResize());
+  ㄴ자동 호출
+
+  window.addEventListener("resize", handleResize);
+
+  const age = prompt("hello jewon");
+  prompt 잘쓰지 않는 오래된 문법
+
+  https://flatuicolors.com/  UI색상 참조 사이트
+  https://developer.mozilla.org/ko/docs/Web/Events 이벤트 참조
+
+
+  classlist.toggle()
