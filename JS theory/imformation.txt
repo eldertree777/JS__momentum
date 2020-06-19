@@ -13,6 +13,7 @@ ex) daysOfWeek
 
 array 선언
 ex) onst daysOfWeek = ["mon", "tue", true];
+    값 추가 daysOfWeek.push();
 object 선언
 ex) const jewon = {
     name : "jewon",

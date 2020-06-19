@@ -3,3 +3,26 @@ new Date()
 
 setInterval(function, milsec)
 설정 시간마다 함수 사용
+
+localStorage.getItem("key")
+localStorage.setItem("key", value)
+
+event.preventDefault(); 
+기본적인 이벤트를 막는다
+
+
+document.createElement("ul");
+html에 작성
+
+innerhtml vs innertext
+    innerhtml 문자열의 태그를 적용시킴
+    innertext 그대로 리턴
+
+localStorage 에는 data를 저장할수없다 오직 String만 저장가능
+
+JSON.stringify() : object를 string
+JSON : JaveScript Object Notation 
+
+foreach문
+array.filter(function) : 모든 배열에대해 해당 함수 실행하여 
+true값만 해당하는 array반환
