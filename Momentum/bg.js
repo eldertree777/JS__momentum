@@ -7,7 +7,10 @@ function paintImage(imgNumber){
     const image = new Image();
     image.src = `images/${imgNumber + 1}.jpg`;
     image.classList.add("bgImage");
-    body.prepend(image);
+    image.addEventListener("load",function(){
+        body.prepend(image);
+    });
+    
 }
 
 function getRandom(){
