@@ -26,3 +26,12 @@ JSON : JaveScript Object Notation
 foreach문
 array.filter(function) : 모든 배열에대해 해당 함수 실행하여 
 true값만 해당하는 array반환
+
+https://unsplash.com/ : 무료 사진 참고 사이트
+
+navigator.geolocation.getCurrentPosition(success function, Error function)
+: navigator API 위치정보 수집허락시 success function(position) 실행
+    position.coords.경도/위도 위치정보 수집가능
+
+https://home.openweathermap.org/ : 날씨 정보  API
+API : Application Programming Interface
