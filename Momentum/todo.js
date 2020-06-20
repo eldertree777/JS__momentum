@@ -27,11 +27,19 @@ function paintToDo(text){
     const li = document.createElement("li");
     const delBtn = document.createElement("button");
     const span = document.createElement("span");
+    const i = document.createElement("i");
+    const a = document.createElement("a");
     const newId = toDos.length + 1;
-    delBtn.innerHTML = "❌";
-    delBtn.addEventListener("click",deleteToDo);
+    i.classList.add("fas", "fa-times");
+    // i.addEventListener("click",function(event){
+    //     event.preventDefault(); 
+    // });
+    //delBtn.innerHTML = `<i class="fas fa-times"></i>`;
+    delBtn.appendChild(i);
+    a.appendChild(delBtn);
+    a.addEventListener("click",deleteToDo);
     span.innerText = ` ${text}`;
-    li.appendChild(delBtn);
+    li.appendChild(a);
     li.appendChild(span);
     li.id = newId
     toDoList.appendChild(li);

@@ -4,8 +4,17 @@
 
 *{
     box-sizing: border-box;
-} 
+}
+
 a{
+    
+    z-index: 3;
+    /* width: 100%;
+    height: 100%; */
+}
+
+i,button{
+    position: relative;
     z-index: -1;
 }
 
