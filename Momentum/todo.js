@@ -28,7 +28,7 @@ function paintToDo(text){
     const delBtn = document.createElement("button");
     const span = document.createElement("span");
     const newId = toDos.length + 1;
-    delBtn.innerText = "❌";
+    delBtn.innerHTML = `<i class="fas fa-times"></i>`;
     delBtn.addEventListener("click",deleteToDo);
     span.innerText = ` ${text}`;
     li.appendChild(delBtn);
